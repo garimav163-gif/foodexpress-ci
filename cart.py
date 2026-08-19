@@ -1,5 +1,5 @@
 def cart_total(items):
-    total = 0
+    total = 0  #Calculating total here 
     for item in items:
         total = total + item["price"] * item["qty"]
     return total
